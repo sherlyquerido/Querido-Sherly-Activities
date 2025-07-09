@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: url('2.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #2c3e50;
+        }
+
+        .login-container {
+            background: rgba(245, 245, 240, 0.5);
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 28px;
+            background-color: #f4d03f;
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 16px;
+            color: #2c3e50;
+        }
+
+        #ulabel, #plabel {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #2c3e50;
+            text-align: left;
+            padding-left: 10px;
+        }
+
+        .red-text {
+            color: #c0392b;
+        }
+
+        .blue-bg {
+            background-color: #eaf2f8;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>LOGIN</h1>
+        <p id="ulabel" class="red-text blue-bg">Username:</p>
+        <p id="plabel" class="red-text blue-bg">Password:</p>
+    </div>
+</body>
+</html>

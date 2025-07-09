@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+.box1{
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid navy;
+    width: 100px;
+    height: 100px;
+    flex: 100px;
+}
+.box2{
+    margin: 20px;
+    padding: 10px;
+    border: 5px solid palevioletred;
+    width:  100px;
+    height: 100px;
+}

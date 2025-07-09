@@ -1,0 +1,17 @@
+a:link {
+    background-color: blue;
+    color: black;
+}
+
+
+a:hover {
+    background-color: pink;
+    color: violet;
+}
+
+a:active {
+    background-color: gray;
+    color: bisque;
+    height: 1000px;
+    font-size: 250px;
+}
